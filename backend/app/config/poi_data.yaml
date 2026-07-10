@@ -1,0 +1,175 @@
+# 景区 POI 数据配置
+# 包含景点坐标、ID、所属景区等信息
+
+pois:
+  # ---- 灵山胜境 ----
+  - id: LS-001
+    name: 灵山大照壁
+    lng: 120.1025
+    lat: 31.4214
+    scenic_area: 灵山胜境
+    type: 文化景观
+
+  - id: LS-002
+    name: 五明桥
+    lng: 120.1022
+    lat: 31.4217
+    scenic_area: 灵山胜境
+    type: 建筑
+
+  - id: LS-003
+    name: 佛足坛
+    lng: 120.1015
+    lat: 31.4227
+    scenic_area: 灵山胜境
+    type: 文化景观
+
+  - id: LS-004
+    name: 五智门
+    lng: 120.1013
+    lat: 31.4231
+    scenic_area: 灵山胜境
+    type: 建筑
+
+  - id: LS-005
+    name: 菩提大道
+    lng: 120.1011
+    lat: 31.4232
+    scenic_area: 灵山胜境
+    type: 道路
+
+  - id: LS-006
+    name: 九龙灌浴
+    lng: 120.1000
+    lat: 31.4246
+    scenic_area: 灵山胜境
+    type: 核心景点
+
+  - id: LS-007
+    name: 降魔浮雕
+    lng: 120.0996
+    lat: 31.4256
+    scenic_area: 灵山胜境
+    type: 文化景观
+
+  - id: LS-008
+    name: 阿育王柱
+    lng: 120.0993
+    lat: 31.4262
+    scenic_area: 灵山胜境
+    type: 文化景观
+
+  - id: LS-009
+    name: 百子戏弥勒
+    lng: 120.0988
+    lat: 31.4272
+    scenic_area: 灵山胜境
+    type: 文化景观
+
+  - id: LS-010
+    name: 祥符禅寺
+    lng: 120.0980
+    lat: 31.4279
+    scenic_area: 灵山胜境
+    type: 寺庙
+
+  - id: LS-011
+    name: 灵山大佛
+    lng: 120.0963
+    lat: 31.4302
+    scenic_area: 灵山胜境
+    type: 核心景点
+
+  - id: LS-012
+    name: 佛教文化博览馆
+    lng: 120.0965
+    lat: 31.4295
+    scenic_area: 灵山胜境
+    type: 展馆
+
+  - id: LS-013
+    name: 灵山梵宫
+    lng: 120.1000
+    lat: 31.4272
+    scenic_area: 灵山胜境
+    type: 核心景点
+
+  - id: LS-014
+    name: 五印坛城
+    lng: 120.1039
+    lat: 31.4256
+    scenic_area: 灵山胜境
+    type: 建筑
+
+  - id: LS-015
+    name: 曼飞龙塔
+    lng: 120.1046
+    lat: 31.4261
+    scenic_area: 灵山胜境
+    type: 建筑
+
+  - id: LS-016
+    name: 无尽意斋
+    lng: 120.1022
+    lat: 31.4278
+    scenic_area: 灵山胜境
+    type: 建筑
+
+  # ---- 拈花湾 ----
+  - id: NH-001
+    name: 拈花广场
+    lng: 120.0763
+    lat: 31.4196
+    scenic_area: 拈花湾
+    type: 广场
+
+  - id: NH-002
+    name: 梵天花海
+    lng: 120.0750
+    lat: 31.4160
+    scenic_area: 拈花湾
+    type: 自然景观
+
+  - id: NH-003
+    name: 香月花街
+    lng: 120.0736
+    lat: 31.4170
+    scenic_area: 拈花湾
+    type: 商业街
+
+  - id: NH-004
+    name: 拈花堂
+    lng: 120.0765
+    lat: 31.4195
+    scenic_area: 拈花湾
+    type: 建筑
+
+  - id: NH-005
+    name: 五灯湖
+    lng: 120.0735
+    lat: 31.4155
+    scenic_area: 拈花湾
+    type: 自然景观
+
+  - id: NH-006
+    name: 鹿鸣谷
+    lng: 120.0725
+    lat: 31.4185
+    scenic_area: 拈花湾
+    type: 自然景观
+
+# 动作标记枚举（用于 AI 回复的表情动作）
+action_markers:
+  - nod         # 点头肯定
+  - wave        # 挥手欢迎
+  - invite      # 邀请手势
+  - reject      # 摇头否定
+  - think       # 思考
+  - explain     # 解释说明
+  - celebrate   # 庆祝
+  - sad         # 悲伤
+
+# 视频标记说明
+video_markers:
+  format: "[视频:景点ID]"
+  id_pattern: "LS-001~LS-016（灵山胜境）或 NH-001~NH-004（拈花湾）"

@@ -1,0 +1,12 @@
+/* 全局样式重置 */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 确保 Element Plus 在暗色模式下也能正常显示 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: light; /* 强制浅色模式，避免与 Element Plus 默认主题冲突 */
+  }
+}

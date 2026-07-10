@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx vite *)",
+      "Bash(curl -s -o /dev/null -w \"HTTP status: %{http_code}\" http://localhost:3001/)",
+      "Bash(curl -s http://localhost:3001/)",
+      "Bash(curl -s \"http://localhost:3002/src/views/Chat.vue\")",
+      "Bash(node -e \"try { require\\('puppeteer'\\); console.log\\('puppeteer: yes'\\); } catch\\(e\\) { console.log\\('puppeteer: no'\\); }\")",
+      "Bash(node -e \"try { require\\('playwright'\\); console.log\\('playwright: yes'\\); } catch\\(e\\) { console.log\\('playwright: no'\\); }\")",
+      "Bash(npm install *)",
+      "Bash(node test-mobile.mjs)",
+      "Bash(curl -s -X POST http://localhost:8000/tourist/login -d \"username=123&password=123\" -H \"Content-Type: application/x-www-form-urlencoded\")",
+      "Bash(node test-subtitle.mjs)"
+    ]
+  }
+}

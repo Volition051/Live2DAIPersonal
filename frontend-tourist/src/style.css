@@ -1,0 +1,12 @@
+/* 全局样式重置 */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* 强制浅色模式，防止系统暗色模式干扰 Vant / Element Plus 组件样式 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: light;
+  }
+}
